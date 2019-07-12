@@ -1,0 +1,24 @@
+h1{
+    font-size: 40px;
+    color: rgb(119, 0, 255);
+}
+img{
+    width:400px ;
+}
+a{
+    text-decoration: none;
+    color: rgb(236, 134, 0);
+}
+
+.RedSocial{
+    width: 50px;
+}
+.uno{ color: rgb(0, 110, 255);
+}
+.dos{
+    color: blueviolet;
+}
+.tres{
+    color: darkgreen;
+}
+.iq{ color: rgb(192, 38, 38);}

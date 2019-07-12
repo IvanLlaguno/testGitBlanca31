@@ -1,0 +1,66 @@
+body{
+    /* border: solid 1px purple; */
+    display: flex;
+    height: 80vh;
+}
+.jugador1{
+    border: solid 1px blue;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://pngimage.net/wp-content/uploads/2018/06/piedra-papel-o-tijera-png-2.png);
+    background-size: cover;
+    background-position: center center;
+
+}
+.jugador2{
+    border: solid 1px red;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://pngimage.net/wp-content/uploads/2018/06/piedra-papel-o-tijera-png-2.png);
+    background-size: cover;
+    background-position: center center;
+}
+.resultado{
+    width: 20%;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input > input{
+    width: 250px;
+    background: black;
+    color: white;
+    border: solid 1px black;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+label {
+    color: rgb(109, 55, 109);
+    font-size: 50px;
+    
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+
+.aparecer{
+display: none;
+}

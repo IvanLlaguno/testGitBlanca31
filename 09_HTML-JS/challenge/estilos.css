@@ -1,0 +1,59 @@
+/* .input-container{
+    display: flex;
+    justify-content: space-around;
+} */
+
+body{
+    /* border: solid 1px purple; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(https://www.laespanolaaceites.com/uploads/recetas/fotos/pizza-con-chorizo-jamon-y-queso.jpg);
+    background-size: cover;  
+    background-position: center center;
+}
+.input-container{
+    width: 50%;
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container > label{
+    margin-top: 20px;
+}
+.input-container > input{
+    width: 250px;
+    background: black;
+    color: white;
+    border: solid 1px black;
+    padding-left: 15px;
+    border-radius: 10px;
+
+}
+.input-container > input::placeholder {
+    color: white;
+}
+.input-container > button{
+    margin-top: 20px; 
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+}
+.input-container > button:hover{
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+}
+.card-container{
+    width: 50%;
+    /* border: solid 1px green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 19, 19, 0);
+}
+.desaparecer{
+    display: none;
+}

@@ -1,0 +1,84 @@
+main{
+    border: solid 0px black;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.arriba{
+    border: solid 0px black;
+    width: 225px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.arriba > a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a > img{
+    width: 40px;
+}
+.logo{
+    border: solid 0px black;
+    width: 100%;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo > img{
+    width: 275px;
+} 
+
+.busqueda{
+    border: solid 0px black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+}   
+.cuadro{
+    border: 1px solid #aaacb1;
+    width: 582px;
+    height: 44px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscar > input{
+    border: none;
+    width: 550px;
+    height: 38px;
+    border-radius: 30px;
+}
+.botones{
+    border: solid 0px black;
+    width: 100%; 
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    border: solid 0px black;
+    width: 320px;
+    height: 37px;;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+button{
+    width: 150px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    color: rgb(158, 156, 156);
+    border-radius: 5px;
+}

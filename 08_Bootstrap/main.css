@@ -1,0 +1,17 @@
+.custom-link-color{
+    color: rgb(255, 255, 255) !important;
+}
+.custom-carousel-size{
+    border: solid 3px green;
+    width: 100%;
+}
+.custom-carousel{
+    width: 100% !important;
+    height: 500px;
+}
+.card-container{
+    border: solid 2px red;
+}
+.container{
+    border: solid 3px yellowgreen;
+}
