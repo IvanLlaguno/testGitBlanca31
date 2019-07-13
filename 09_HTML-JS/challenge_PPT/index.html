@@ -14,27 +14,27 @@
     <div class="jugador1">
         <div class="input">
             <label for="inputj1">Piedra, papel o tijera</label>
-            <input type="password" id="inputj1" placeholder="piedra/papel/tijera">
+            <input type="text" id="inputj1" placeholder="piedra/papel/tijera">
         </div>
     </div>
     <div class="resultado">
             <div class="boton">
-                    <button>Jugar</button>
+                    <button id="botonJugar">Jugar</button>
                 </div>
-                <div class="card aparecer" style="width: 16rem;">
+                <div class="card desaparecer" style="width: 16rem;" id="card">
                         <div class="card-body">
-                          <h2 class="card-title">Card title</h2>
+                          <h2 class="card-title" id="ganador"></h2>
                         </div>
                       </div>
-                      <div class="jugar-de-nuevo aparecer">
-                        <button><a href="#"> Jugar de nuevo</a></button>
+                      <div class="jugar-de-nuevo">
+                        <button id="botonJugarDeNuevo" class="desaparecer"><a href="#"> Jugar de nuevo</a></button>
                     </div>
         
     </div>
     <div class="jugador2">
         <div class="input">
             <label for="inputj2">Piedra, papel o tijera</label>
-            <input type="password" id="inputj2" placeholder="piedra/papel/tijera">
+            <input type="text" id="inputj2" placeholder="piedra/papel/tijera">
         </div>
     </div>
     

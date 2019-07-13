@@ -1,3 +1,9 @@
+@font-face{
+    font-family: Barriecito;
+    src: url('Barriecito.ttf')
+}
+
+
 h1{
     font-size: 40px;
     color: rgb(119, 0, 255);
@@ -18,7 +24,9 @@ a{
 .dos{
     color: blueviolet;
 }
+
 .tres{
     color: darkgreen;
 }
-.iq{ color: rgb(192, 38, 38);}
+.iq{ color: rgb(192, 38, 38);
+}
